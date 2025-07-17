@@ -1,33 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🔗 URL Shortener
 
-## Getting Started
+A sleek and minimal URL shortener built using **Next.js**, **React**, and **Tailwind CSS**. Create custom short links for long URLs instantly.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- 🔐 Custom short URL input
+- ⚡ Fast and responsive interface
+- 🌐 API-based short URL generation
+- 🎨 Beautiful UI with Tailwind CSS
+- ✅ Copyable shortened URL output
+
+---
+
+## 📸 Preview
+
+<img width="1907" height="920" alt="image" src="https://github.com/user-attachments/assets/43694511-58d2-4d7d-b141-7a5bbecf4dfa" />
+
+
+
+<img width="1890" height="897" alt="image" src="https://github.com/user-attachments/assets/5bb0ecb2-454a-4fd3-96df-9a539cc662f8" />
+
+>
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React + Next.js (App Router)
+- **Styling**: Tailwind CSS
+- **API**: RESTful route using `fetch()` (can be hooked to a database or third-party service)
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository:**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+git clone https://github.com/your-username/url-shortener.git
+cd url-shortener
 
 ## Deploy on Vercel
 
